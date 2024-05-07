@@ -1,0 +1,67 @@
+.rent__banner {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.rent__apartments {
+  padding: 0 250px;
+}
+.rent__apartments-header {
+  color: rgb(30, 30, 30);
+  font-size: 26px;
+  font-weight: 700;
+  margin: 32px 0;
+}
+.rent__apartments-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 25px;
+}
+.rent__apartments-list:last-child {
+  margin: 0 0 52px;
+}
+.rent__apartments-card {
+  width: 300px;
+  height: 330px;
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: 5px;
+}
+.rent__apartments-card_img {
+  width: 300px;
+  height: 230px;
+  border-radius: 5px 5px 0 0;
+}
+.rent__apartments-card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px 17px 9px 13px;
+}
+.rent__apartments-card_price {
+  color: rgb(30, 30, 30);
+  font-size: 24px;
+  font-weight: 600;
+}
+.rent__apartments-card_list {
+  display: flex;
+}
+.rent__apartments-card_list_param {
+  color: rgb(30, 30, 30);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+.rent__apartments-card_list_param:first-child {
+  margin: 0 10px 0 0;
+}
+.rent__apartments-card_list_param:last-child {
+  margin: 0 0 0 10px;
+}
+.rent__apartments-card_location {
+  color: rgb(92, 92, 92);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=rent.css.map */

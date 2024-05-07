@@ -11,6 +11,7 @@
 .header__top-logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .header__top-logo_img {
   width: 30.9px;
@@ -56,6 +57,7 @@
   font-weight: 600;
   margin: 0 40px;
   text-decoration: none;
+  cursor: pointer;
 }
 .header__bot-link:first-child {
   margin: 0 40px 0 0;
