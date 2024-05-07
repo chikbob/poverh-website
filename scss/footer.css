@@ -1,0 +1,133 @@
+.footer {
+  padding: 24px 250px 33px;
+  border-top: 1px solid rgb(30, 30, 30);
+}
+.footer__list {
+  display: flex;
+}
+.footer__list-brand {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+}
+.footer__list-brand_logo {
+  display: flex;
+  align-items: center;
+}
+.footer__list-brand_logo_img {
+  width: 30.9px;
+  height: 33px;
+}
+.footer__list-brand_logo_text {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 0 4px;
+}
+.footer__list-brand_text {
+  color: rgb(92, 92, 92);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px 0 0;
+  width: 133px;
+  height: 75px;
+}
+.footer__list-company {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 68px;
+}
+.footer__list-company_header {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  width: 100px;
+}
+.footer__list-company_link {
+  color: rgb(92, 92, 92);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 0;
+  height: 18px;
+  width: 100px;
+  cursor: pointer;
+}
+.footer__list-company_link:last-child {
+  margin: 4px 0 0;
+}
+.footer__list-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 86px;
+}
+.footer__list-info_header {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  width: 100px;
+}
+.footer__list-info_link {
+  color: rgb(92, 92, 92);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px 0;
+  height: 18px;
+  width: 170px;
+  cursor: pointer;
+}
+.footer__list-info_link:last-child {
+  margin: 4px 0 0;
+}
+.footer__list-social {
+  margin: 0 85px 0 0;
+}
+.footer__list-social_header {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+.footer__list-social_list {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 15px 0;
+}
+.footer__list-social_link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.footer__list-social_link:last-child {
+  margin: 0 0 0 11px;
+}
+.footer__list-contacts_header {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer__list-contacts_phone {
+  color: rgb(30, 30, 30);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 14px 0 8px;
+}
+.footer__list-contacts_graph {
+  color: rgb(30, 30, 30);
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer__list-contacts_time {
+  color: rgb(30, 30, 30);
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer__list-contacts_email {
+  color: rgb(30, 30, 30);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 8px 0 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

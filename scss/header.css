@@ -1,0 +1,67 @@
+.header {
+  padding: 0 250px;
+  background: rgb(242, 246, 250);
+}
+.header__top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__top-logo {
+  display: flex;
+  align-items: center;
+}
+.header__top-logo_img {
+  width: 30.9px;
+  height: 33px;
+}
+.header__top-logo_text {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 0 4px;
+}
+.header__top-buttons_add {
+  width: 230px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(0, 142, 197);
+  color: rgb(242, 246, 250);
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  cursor: pointer;
+}
+.header__top-buttons_login {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgb(166, 203, 218);
+  color: rgb(0, 142, 197);
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  margin: 0 0 0 43px;
+  cursor: pointer;
+}
+.header__bot {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.header__bot-link {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 40px;
+  text-decoration: none;
+}
+.header__bot-link:first-child {
+  margin: 0 40px 0 0;
+}
+.header__bot-link:last-child {
+  margin: 0 0 0 40px;
+}
+
+/*# sourceMappingURL=header.css.map */

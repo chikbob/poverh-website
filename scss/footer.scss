@@ -1,0 +1,181 @@
+.footer {
+  padding: 24px 250px 33px;
+  border-top: 1px solid rgb(30, 30, 30);
+
+  &__list {
+    display: flex;
+
+    &-brand {
+      display: flex;
+      flex-direction: column;
+
+      width: 140px;
+
+      &_logo {
+        display: flex;
+        align-items: center;
+
+        &_img {
+          width: 30.9px;
+          height: 33px;
+        }
+
+        &_text {
+          color: rgb(30, 30, 30);
+          font-size: 16px;
+          font-weight: 700;
+
+          margin: 0 0 0 4px;
+        }
+      }
+
+      &_text {
+        color: rgb(92, 92, 92);
+        font-size: 12px;
+        font-weight: 400;
+
+        margin: 10px 0 0;
+
+        width: 133px;
+        height: 75px;
+      }
+    }
+
+    &-company {
+      display: flex;
+      flex-direction: column;
+
+      margin: 0 0 0 68px;
+
+      &_header {
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        font-weight: 700;
+
+        margin: 0 0 6px;
+
+        width: 100px;
+      }
+
+      &_link {
+        color: rgb(92, 92, 92);
+        font-size: 14px;
+        font-weight: 500;
+
+        margin: 4px 0;
+
+        height: 18px;
+        width: 100px;
+
+        cursor: pointer;
+
+        &:last-child {
+          margin: 4px 0 0;
+        }
+      }
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+
+      margin: 0 86px;
+
+      &_header {
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        font-weight: 700;
+
+        margin: 0 0 6px;
+
+        width: 100px;
+      }
+
+      &_link {
+        color: rgb(92, 92, 92);
+        font-size: 14px;
+        font-weight: 500;
+
+        margin: 4px 0;
+
+        height: 18px;
+        width: 170px;
+
+        cursor: pointer;
+
+        &:last-child {
+          margin: 4px 0 0;
+        }
+      }
+    }
+
+    &-social {
+      margin: 0 85px 0 0;
+
+      &_header {
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        font-weight: 700;
+
+        margin: 0 0 15px;
+      }
+
+      &_list {
+        display: flex;
+        flex-direction: row;
+
+        margin: 0 0 15px 0;
+
+        &_img {
+        }
+      }
+
+      &_link {
+        display: flex;
+
+        width: 30px;
+        height: 30px;
+
+        &:last-child {
+          margin: 0 0 0 11px;
+        }
+      }
+    }
+
+    &-contacts {
+      &_header {
+        color: rgb(30, 30, 30);
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      &_phone {
+        color: rgb(30, 30, 30);
+        font-size: 14px;
+        font-weight: 600;
+
+        margin: 14px 0 8px;
+      }
+
+      &_graph {
+        color: rgb(30, 30, 30);
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      &_time {
+        color: rgb(30, 30, 30);
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      &_email {
+        color: rgb(30, 30, 30);
+        font-size: 14px;
+        font-weight: 500;
+
+        margin: 8px 0 0;
+      }
+    }
+  }
+}
